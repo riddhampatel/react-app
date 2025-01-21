@@ -1,0 +1,24 @@
+.currency-input-box {
+    margin-bottom: 1rem;
+  }
+  
+  .currency-input-box label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .currency-input-box input,
+  .currency-input-box select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .exchange-rate-display {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
