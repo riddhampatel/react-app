@@ -1,7 +1,8 @@
-import React from 'react';
-import UserContext from './UserContext';
+import React from "react";
+import UserContext from "./UserContext";
 
-const UserContextProvider = ({ children }) => {
+// eslint-disable-next-line react/prop-types
+const UserContextProvider = ({children}) => {
     const [user, setUser] = React.useState(null)
     return(
         <UserContext.Provider value={{user, setUser}}>
@@ -10,5 +11,4 @@ const UserContextProvider = ({ children }) => {
     )
 }
 
-
-export default UserContextProvider;
+export default UserContextProvider
