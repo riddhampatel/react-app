@@ -10,7 +10,7 @@ function InputBox({
     // eslint-disable-next-line react/prop-types
     onCurrencyChange,
     // eslint-disable-next-line react/prop-types
-    currencyOptions = [],
+    currencyOptions = [], 
     // eslint-disable-next-line react/prop-types
     selectCurrency = "usd",
     // eslint-disable-next-line react/prop-types
